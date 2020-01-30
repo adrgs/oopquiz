@@ -96,6 +96,20 @@
                 width: 1360px;
             }
          }
+
+         .github-link {
+             opacity:30%;
+             -o-transition:.5s;
+            -ms-transition:.5s;
+            -moz-transition:.5s;
+            -webkit-transition:.5s;
+            /* ...and now for the proper property */
+            transition:.5s;
+         }
+
+         .github-link:hover {
+             opacity:100%;
+         }
     </style>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -162,6 +176,11 @@
 
         </div>
         <button style="margin-top:30px;margin-left:10px" class="btn btn-default" onclick="sterge_raspunsuri()">Sterge raspunsuri</button>
+    </div>
+    <div class="row" style="margin-top:30px;margin-bottom:20px">
+        <div class="col col-lg-12" style="text-align:center">
+                <a class="github-link" href="https://github.com/adrgs/oopquiz" target="_blank"><img src="https://image.flaticon.com/icons/svg/25/25231.svg" style="max-width:24px;height:auto;" /></a>
+        </div>
     </div>
     <!-- /.row -->
 </div>
