@@ -1,3 +1,11 @@
+<?php
+
+if (basename(__FILE__) == basename($_SERVER["SCRIPT_FILENAME"])) {
+    exit();
+  }
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
