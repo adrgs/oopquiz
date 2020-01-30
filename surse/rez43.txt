@@ -1,1 +1,1 @@
- c1  c2  c1  c2  c1  c3  d3  d 1  d2  d 1  d2  d 1 
+c1 c2 c1 c2 c1 c3 d3 d1 d2 d1 d2 d1
