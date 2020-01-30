@@ -1,4 +1,4 @@
 # OOP Quiz
 
-![alt text][promo1.png]
-![alt text][promo2.png]
+[promo1](promo1.png)
+[promo2](promo2.png)
