@@ -71,7 +71,7 @@ if (isset($_REQUEST['action']))
 
         if (trim(file_get_contents('surse/rez'.$problema_id.'.txt')) == trim($data)) {
             echo "ok";
-            $_SESSION['solved'][$problema_id] = 'solved';
+            //$_SESSION['solved'][$problema_id] = 'solved';
         }  else {
             echo "gresit";
             $_SESSION['solved'][$problema_id] = 'wrong';
@@ -110,7 +110,7 @@ if (isset($_REQUEST['action']))
         $out = trim(str_replace("compilation terminated due to -Wfatal-errors.","",$out));
 
         if ($out=="") {
-            $_SESSION['solved'][$problema_id] = 'solved';
+            //$_SESSION['solved'][$problema_id] = 'solved';
             echo "ok"; 
         } else {
             $_SESSION['solved'][$problema_id] = 'wrong';
