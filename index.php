@@ -102,7 +102,7 @@ if (isset($_REQUEST['action']))
         file_put_contents($tmpFilename, $data);
 
         //herokuapp fix
-        exec("/app/.apt/usr/bin/g++ -w -Wfatal-errors ".$tmpFilename." -o " .$tmpFilename. ".bin 2>&1", $out);
+        exec("./.apt/usr/bin/g++ -w -Wfatal-errors ".$tmpFilename." -o " .$tmpFilename. ".bin 2>&1", $out);
         //exec("/usr/bin/g++ -w -Wfatal-errors ".$tmpFilename." -o " .$tmpFilename. ".bin 2>&1", $out);
 
         $out = implode("\n",$out);
