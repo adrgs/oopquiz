@@ -1,0 +1,4 @@
+prob68.cpp: In constructor ‘cls1::cls1(cls2)’:
+prob68.cpp:10:15: error: ‘p’ has incomplete type
+     cls1(cls2 p) { vi = p.vi; }
+               ^

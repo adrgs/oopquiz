@@ -1,0 +1,4 @@
+prob45.cpp: In member function ‘int& cls::f() const’:
+prob45.cpp:8:28: error: binding reference of type ‘int&’ to ‘const int’ discards qualifiers
+     int &f() const{ return x;}
+                            ^

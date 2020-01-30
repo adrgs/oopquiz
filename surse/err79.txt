@@ -1,0 +1,4 @@
+prob79.cpp: In function ‘std::ostream& operator<<(std::ostream&, const D&)’:
+prob79.cpp:35:17: error: passing ‘const D’ as ‘this’ argument discards qualifiers [-fpermissive]
+         o << a[i];
+                 ^

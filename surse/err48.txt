@@ -1,0 +1,4 @@
+prob48.cpp: In function ‘int main()’:
+prob48.cpp:11:16: error: ‘int cls1::get_x()’ is inaccessible within this context
+  cout<<d.get_x();
+                ^

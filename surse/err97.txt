@@ -1,0 +1,4 @@
+prob97.cpp: In function ‘int main()’:
+prob97.cpp:21:4: error: no match for ‘operator+=’ (operand types are ‘B’ and ‘int’)
+  a += b;
+  ~~^~~~

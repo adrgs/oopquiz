@@ -1,0 +1,4 @@
+prob11.cpp: In function ‘int main()’:
+prob11.cpp:21:10: error: no match for ‘operator<<’ (operand types are ‘std::ostream {aka std::basic_ostream<char>}’ and ‘A’)
+     cout << a1 + a2;
+     ~~~~~^~~~~~~~~~

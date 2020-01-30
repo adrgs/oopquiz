@@ -1,0 +1,4 @@
+prob76.cpp: In function ‘int main()’:
+prob76.cpp:14:17: error: passing ‘const cls’ as ‘this’ argument discards qualifiers [-fpermissive]
+     cout << d.f();
+                 ^

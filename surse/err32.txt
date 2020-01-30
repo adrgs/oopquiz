@@ -1,0 +1,4 @@
+prob32.cpp: In member function ‘virtual B D::f(B)’:
+prob32.cpp:18:31: error: ‘int B::x’ is protected within this context
+     B f(B ob) { return x + ob.x - 1; }
+                               ^

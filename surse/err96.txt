@@ -1,0 +1,4 @@
+prob96.cpp: In member function ‘virtual A B::f(A)’:
+prob96.cpp:15:27: error: ‘int A::x’ is protected within this context
+   A f(A a) { return x + a.x + 1; }
+                           ^

@@ -1,0 +1,4 @@
+prob73.cpp: In constructor ‘D::D(int)’:
+prob73.cpp:14:16: error: call of overloaded ‘B()’ is ambiguous
+  D(int i = 25) { x = i; }
+                ^

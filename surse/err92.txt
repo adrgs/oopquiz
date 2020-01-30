@@ -1,0 +1,4 @@
+prob92.cpp: In copy constructor ‘B::B(B&)’:
+prob92.cpp:24:10: error: no matching function for call to ‘A::A()’
+ B::B(B& a)
+          ^

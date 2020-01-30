@@ -1,0 +1,4 @@
+prob4.cpp: In function ‘int main()’:
+prob4.cpp:20:20: error: cannot bind non-const lvalue reference of type ‘problema&’ to an rvalue of type ‘problema’
+     mister2(mister1());
+             ~~~~~~~^~

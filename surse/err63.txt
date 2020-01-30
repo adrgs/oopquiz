@@ -1,0 +1,4 @@
+prob63.cpp: In function ‘int main()’:
+prob63.cpp:15:5: error: ‘f’ was not declared in this scope
+     f(d);
+     ^

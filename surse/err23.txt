@@ -1,0 +1,4 @@
+prob23.cpp: In function ‘int main()’:
+prob23.cpp:44:16: error: ‘class B’ has no member named ‘f1’
+     cout << p->f1(p);
+                ^~

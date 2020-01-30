@@ -1,0 +1,4 @@
+prob46.cpp: In function ‘int main()’:
+prob46.cpp:18:19: error: no match for ‘operator=’ (operand types are ‘D’ and ‘B’)
+     *p1=p1->minus();
+                   ^

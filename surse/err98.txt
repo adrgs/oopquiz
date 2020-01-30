@@ -1,0 +1,4 @@
+prob98.cpp: In function ‘int main()’:
+prob98.cpp:47:13: error: binding reference of type ‘B&’ to ‘const B’ discards qualifiers
+     cout << b;
+             ^

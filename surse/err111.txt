@@ -1,0 +1,4 @@
+prob111.cpp: In function ‘int main()’:
+prob111.cpp:19:27: error: invalid conversion from ‘B*’ to ‘D*’ [-fpermissive]
+  D *p1 = new D, *p2 = new B, *p3 = new D(p1->f(*p2));
+                           ^

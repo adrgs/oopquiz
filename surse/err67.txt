@@ -1,0 +1,4 @@
+prob67.cpp: In member function ‘void Z::f(X)’:
+prob67.cpp:23:29: error: ‘int X::x’ is private within this context
+     void f(X u) { cout << u.x; }
+                             ^

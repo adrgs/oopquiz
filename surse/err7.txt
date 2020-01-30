@@ -1,0 +1,4 @@
+prob7.cpp: In function ‘int main()’:
+prob7.cpp:20:16: error: ‘B’ is an inaccessible base of ‘D’
+     B* p = new D;
+                ^

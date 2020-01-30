@@ -1,0 +1,4 @@
+prob84.cpp: In constructor ‘D::D()’:
+prob84.cpp:20:11: error: ‘int B::x’ is private within this context
+     D() { x++; }
+           ^

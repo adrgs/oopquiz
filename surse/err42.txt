@@ -1,0 +1,4 @@
+prob42.cpp: In function ‘int main()’:
+prob42.cpp:21:11: error: ‘o’ was not declared in this scope
+     cout<<o.get_i();
+           ^

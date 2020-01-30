@@ -1,0 +1,4 @@
+prob72.cpp: In function ‘int main()’:
+prob72.cpp:20:5: error: ‘cls’ was not declared in this scope
+     cls d(37);
+     ^~~

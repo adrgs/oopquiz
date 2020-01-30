@@ -1,0 +1,5 @@
+prob38.cpp: In instantiation of ‘X f(X, Y) [with X = int*; Y = int*]’:
+prob38.cpp:18:17:   required from here
+prob38.cpp:8:13: error: invalid operands of types ‘int*’ and ‘int*’ to binary ‘operator+’
+     return x+y;
+            ~^~

@@ -1,0 +1,4 @@
+prob22.cpp: In constructor ‘D::D()’:
+prob22.cpp:19:13: error: ‘int B::i’ is private within this context
+         j = i + 2;
+             ^

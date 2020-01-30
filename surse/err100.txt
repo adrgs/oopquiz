@@ -1,0 +1,4 @@
+prob100.cpp: In constructor ‘A::A(int, int)’:
+prob100.cpp:7:29: error: ‘int A::y’ is a static data member; it can only be initialized at its definition
+ public: A(int i,int j):x(i),y(j){}
+                             ^

@@ -1,0 +1,7 @@
+/tmp/ccGIlX75.o: In function `A::A(int)':
+prob25.cpp:(.text._ZN1AC2Ei[_ZN1AC5Ei]+0x10): undefined reference to `A::x'
+/tmp/ccGIlX75.o: In function `A::get_x()':
+prob25.cpp:(.text._ZN1A5get_xEv[_ZN1A5get_xEv]+0xa): undefined reference to `A::x'
+/tmp/ccGIlX75.o: In function `A::set_x(int)':
+prob25.cpp:(.text._ZN1A5set_xEi[_ZN1A5set_xEi]+0x10): undefined reference to `A::x'
+collect2: error: ld returned 1 exit status

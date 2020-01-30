@@ -1,0 +1,4 @@
+prob59.cpp: In member function ‘int D::get_x()’:
+prob59.cpp:20:26: error: ‘int B::x’ is private within this context
+     int get_x() { return x; }
+                          ^

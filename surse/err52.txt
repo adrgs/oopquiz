@@ -1,0 +1,4 @@
+prob52.cpp: In function ‘int main()’:
+prob52.cpp:24:18: error: cannot call member function ‘int B::get_x()’ without object
+   cout<<D::get_x();
+                  ^

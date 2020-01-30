@@ -1,0 +1,4 @@
+prob109.cpp: In member function ‘X X::f2() const’:
+prob109.cpp:7:33: error: passing ‘const X’ as ‘this’ argument discards qualifiers [-fpermissive]
+ X f2() const {   int i=this->f1(); return X(34-i); }};
+                                 ^

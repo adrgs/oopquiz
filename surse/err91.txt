@@ -1,0 +1,4 @@
+prob91.cpp: In member function ‘int& A::f() const’:
+prob91.cpp:10:26: error: binding reference of type ‘int&’ to ‘const int’ discards qualifiers
+  int& f() const { return x; }
+                          ^

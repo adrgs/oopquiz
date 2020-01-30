@@ -1,0 +1,4 @@
+prob14.cpp: In function ‘int main()’:
+prob14.cpp:30:15: error: no matching function for call to ‘B::B()’
+     B a(112), b, *c;
+               ^

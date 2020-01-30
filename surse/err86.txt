@@ -1,0 +1,4 @@
+prob86.cpp: In static member function ‘static int cls::g()’:
+prob86.cpp:9:31: error: no matching function for call to ‘cls::f()’
+     static int g() { return f() / 2; }
+                               ^

@@ -1,0 +1,4 @@
+prob39.cpp: In function ‘int main()’:
+prob39.cpp:39:13: error: call of overloaded ‘test(int&, int&)’ is ambiguous
+     test(a,b);
+             ^

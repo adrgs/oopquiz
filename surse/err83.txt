@@ -1,0 +1,4 @@
+prob83.cpp: In function ‘int main()’:
+prob83.cpp:13:18: error: increment of read-only location ‘a.cls::f()’
+     int b = a.f()++;
+                  ^~

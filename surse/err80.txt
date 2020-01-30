@@ -1,0 +1,4 @@
+prob80.cpp: In member function ‘D D::operator+(const D&)’:
+prob80.cpp:16:38: error: ‘int B::x’ is private within this context
+     D operator+(const D& a) { return x + a.x; }
+                                      ^

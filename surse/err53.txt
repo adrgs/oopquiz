@@ -1,0 +1,4 @@
+prob53.cpp: In function ‘int main()’:
+prob53.cpp:9:20: error: no matching function for call to ‘cls::cls()’
+ { cls *p=new cls[10];
+                    ^
