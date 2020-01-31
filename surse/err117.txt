@@ -1,0 +1,4 @@
+prob117.cpp: In function ‘int main()’:
+prob117.cpp:26:27: error: passing ‘const X’ as ‘this’ argument discards qualifiers [-fpermissive]
+     cout << p->tipareste(7);
+                           ^

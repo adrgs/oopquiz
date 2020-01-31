@@ -1,0 +1,4 @@
+prob119.cpp: In member function ‘int C::get_z()’:
+prob119.cpp:14:33: error: ‘int A::get_x()’ is inaccessible within this context
+             int get_z(){ return get_x()+get_y()+z; } };
+                                 ^~~~~

@@ -1,0 +1,4 @@
+prob54.cpp: In function ‘int main()’:
+prob54.cpp:31:5: error: ‘ob’ was not declared in this scope
+     ob.afis();
+     ^~

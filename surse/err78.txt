@@ -1,0 +1,4 @@
+prob78.cpp: In constructor ‘D2::D2(int)’:
+prob78.cpp:37:17: error: ‘int D1::j’ is private within this context
+         k = i + j - l + 3;
+                 ^

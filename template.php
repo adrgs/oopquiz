@@ -216,7 +216,7 @@ function next() {
     var n = Number(id_problema);
     var urm = -1;
     var nextbest = -1;
-    for (var i=n+1;i<130;i++) {
+    for (var i=n+1;i<300;i++) {
         if ($("#prob" + i)[0]) {
             if (nextbest==-1) nextbest = i;
             if ($("#prob" + i)[0].classList.length==1) {
@@ -245,7 +245,7 @@ function next() {
 
 function sterge_raspunsuri() {
     document.cookie = 'PHPSESSID=; expires=Thu, 01 Jan 1970 00:00:01 GMT;';
-    document.location = '/index.php?id=2';
+    document.location = '/index.php?id=1';
 }
 
 function escapeHtml(unsafe) {

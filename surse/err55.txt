@@ -1,0 +1,4 @@
+prob55.cpp: In function ‘int main()’:
+prob55.cpp:21:16: error: invalid conversion from ‘B*’ to ‘D*’ [-fpermissive]
+     D *p = new B;
+                ^

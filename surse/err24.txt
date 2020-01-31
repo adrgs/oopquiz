@@ -1,0 +1,4 @@
+prob24.cpp: In function ‘int main()’:
+prob24.cpp:16:9: error: base operand of ‘->’ has non-pointer type ‘A’
+     v[0]->afis();
+         ^~
