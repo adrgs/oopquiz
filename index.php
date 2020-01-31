@@ -72,17 +72,18 @@ if (isset($_REQUEST['action']))
         $d1 = str_replace("  "," ",trim(file_get_contents('surse/rez'.$problema_id.'.txt')));
         $d2 = str_replace("  "," ",trim($data));
 
-        $a1 = explode('\n', $d1);
-        $a2 = explode('\n', $d2);
+        $a1 = explode("\n", $d1);
+        $a2 = explode("\n", $d2);
 
         if (sizeof($a1) == sizeof($a2)) {
 
             for ($i=0;$i<sizeof($a1);$i++)
             {
-                if (str_replace("  "," ",trim($a1[$i])) !== str_replace("  "," ",trim($a2[$i]))) {
+                if (str_replace("  "," ",trim($a1[$i])) != str_replace("  "," ",trim($a2[$i]))) {
                     echo "gresit";
+
                     $_SESSION['solved'][$problema_id] = 'wrong';
-                    break;
+                    exit();
                 }
             }
 
