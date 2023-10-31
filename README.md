@@ -2,7 +2,7 @@
 
 
 
-Link: [oopquiz.fly.io](https://oopquiz.fly.io)
+Link: [oopquiz.fly.dev](https://oopquiz.fly.dev)
 
 
 
