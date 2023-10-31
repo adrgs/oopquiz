@@ -2,7 +2,7 @@
 
 
 
-Link: [oopquiz.herokuapp.com](https://oopquiz.herokuapp.com)
+Link: [oopquiz.fly.io](https://oopquiz.fly.io)
 
 
 

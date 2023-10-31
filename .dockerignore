@@ -1,0 +1,4 @@
+# flyctl launch added from .gitignore
+**/*.py
+**/docker-compose.yml
+fly.toml
